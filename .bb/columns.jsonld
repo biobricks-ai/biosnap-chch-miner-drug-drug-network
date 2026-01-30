@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "cheminf": "http://semanticscience.org/resource/",
+    "obo": "http://purl.obolibrary.org/obo/"
+  },
+  "columns": [
+    {
+      "name": "drug_a",
+      "@type": "cheminf:CHEMINF_000059",
+      "description": "DrugBank Identifier for the first drug in the interaction pair",
+      "dataType": "string"
+    },
+    {
+      "name": "drug_b",
+      "@type": "cheminf:CHEMINF_000059",
+      "description": "DrugBank Identifier for the second drug in the interaction pair",
+      "dataType": "string"
+    }
+  ]
+}

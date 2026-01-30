@@ -1,0 +1,10 @@
+{
+  "@context": {"@vocab": "https://schema.org/", "dcterms": "http://purl.org/dc/terms/"},
+  "@type": "DataDownload",
+  "name": "ChCh-Miner: Drug-Drug Interaction Network",
+  "url": "https://snap.stanford.edu/biodata/datasets/10001/files/ChCh-Miner_durgbank-chem-chem.tsv.gz",
+  "dateAccessed": "2026-01-29",
+  "dcterms:source": "Stanford SNAP BioData",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "citation": "Marinka Zitnik, Rok Sosič, Sagar Maheshwari, and Jure Leskovec. BioSNAP Datasets: Stanford Biomedical Network Dataset Collection. 2018."
+}

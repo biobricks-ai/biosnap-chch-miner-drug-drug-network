@@ -1,0 +1,6 @@
+{
+  "@context": {"@vocab": "https://schema.org/"},
+  "@type": "CreativeWork",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "usageInfo": "You can share and adapt the material as long as you give appropriate credit."
+}

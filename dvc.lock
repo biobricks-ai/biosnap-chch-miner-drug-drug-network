@@ -1,0 +1,30 @@
+schema: '2.0'
+stages:
+  download:
+    cmd: .venv/bin/python stages/01_download.py
+    deps:
+    - path: stages/01_download.py
+      hash: md5
+      md5: 67051082b44ff0e69adbc37b96941cd8
+      size: 421
+    outs:
+    - path: download/ChCh-Miner_durgbank-chem-chem.tsv.gz
+      hash: md5
+      md5: 8bcc7b9d4ffcaf3254a80756c5b21564
+      size: 206802
+  build:
+    cmd: .venv/bin/python stages/02_build.py
+    deps:
+    - path: download/ChCh-Miner_durgbank-chem-chem.tsv.gz
+      hash: md5
+      md5: 8bcc7b9d4ffcaf3254a80756c5b21564
+      size: 206802
+    - path: stages/02_build.py
+      hash: md5
+      md5: c5e6cb25f095d6023f661dd50490b1d5
+      size: 735
+    outs:
+    - path: brick/data.parquet
+      hash: md5
+      md5: c5ef237e3f6d1ef85c9e2bd09f062ace
+      size: 148287
